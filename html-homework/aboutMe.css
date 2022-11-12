@@ -1,0 +1,25 @@
+ h1{
+    font-display:dodgerblue;
+}      
+
+h2 {
+  font-family: cursive;
+}
+
+h3 {
+ font-stretch: narrower;
+}
+
+ul{
+  color:rgb(93, 220, 20);
+  background-color:blueviolet; size-adjust:inherit; 
+  width: 50px;
+}
+
+.skills-list{
+justify-content:center
+}
+
+h3{
+  text-decoration: wavy;
+}
