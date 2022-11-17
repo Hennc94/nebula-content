@@ -1,0 +1,170 @@
+body {
+
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-style: normal;
+  color: #5f6368;
+}
+
+
+.top-bar {
+  position: absolute;
+  top: 10;
+  right: 0;
+  margin-right: 2vw;
+  margin-top: 10px;
+  display: flex;
+  overflow: hidden;
+  transition: height 0.3s;
+
+
+}
+
+.top-bar a {
+  justify-content: space-between;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+  color: inherit;
+  align-items: center;
+}
+
+.top-bar a:hover {
+  text-decoration: underline;
+}
+
+.top-bar a:visited {
+  text-decoration: none;
+}
+
+.logo {
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.search input {
+  position: absolute;
+  top: 50%;
+  right: 28%;
+  background-color: transparent;
+  border: 2px solid #e1e1e1;
+  border-radius: 50px;
+  margin: 20px;
+  padding: 0 40px;
+  color: inherit;
+  word-wrap: break-word;
+  outline: 0px;
+  display: flex;
+  flex: 100%;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: -37px;
+  height: 45px;
+  font-size: 20px
+}
+
+.sub-search {
+
+  position: absolute;
+  left: 50%;
+  top: 57%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 20px;
+
+}
+
+.sub-search button {
+
+  display: inline;
+  margin: 40px;
+  padding: 15px;
+  background-color: #eee;d;
+  border-color: #c0c0c0;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  align-items: center;
+  font: inherit;
+  font-style: inherit;
+  color: inherit;
+}
+
+ul.bottom-bar {
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(248, 242, 242);
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  list-style: none;
+
+}
+
+ul.bottom-bar li {
+  justify-content: space-between;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+  align-items: center;
+
+}
+
+
+ul.bottom-bar li a {
+
+  display: inline;
+  text-decoration: none;
+  color: inherit
+}
+
+ul.bottom-bar a:hover {
+  text-decoration: underline;
+}
+
+ul.bottom-bar a:visited {
+  text-decoration: none;
+}
+
+.right-bar {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  justify-content: space-between;
+  text-decoration: none;
+  text-align: right;
+  margin: 10px;
+  align-items: right;
+  list-style: none;
+
+
+}
+
+.right-bar li {
+  justify-content: space-between;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  margin: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+
+}
+
+
+.right-bar li a {
+
+  display: inline;
+  margin-right: 20px;
+  text-decoration: none;
+  color: inherit
+}
+
+.right-bar li a:hover {
+
+  text-decoration: underline;
+}
