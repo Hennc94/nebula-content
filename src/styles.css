@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+.box {
+  max-width: 400px;
+  color: white;
+  background-color: var(
+    --activeColor
+  ); 
+}
+
+
